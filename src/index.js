@@ -4,7 +4,7 @@ const path = require('path');
 const exphbs = require('express-ExpressHandlebars');
 const { extname } = require('path');
 const methodOverride  = require ('method-override');
-const { session } = require('passport');
+//const { session } = require('passport');
 const session = require('express-session');
 //initiliazations
 const app = express();
